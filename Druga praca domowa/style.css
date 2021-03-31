@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: system-ui;
+}
+.nav {
+  background-color: darksalmon;
+  font-size: 8px;
+  width: 100%;
+  margin-top: 3px;
+}
+.nav a:nth-child(1) {
+  margin: 0 75vw 0 1vw;
+}
+a:nth-child(1):hover {
+  color: lightgray;
+}
+.nav a:nth-child(2) {
+  margin-right: 2vw;
+}
+.nav a {
+  line-height: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.header {
+  margin-left: 0px;
+  padding-top: 40px;
+  padding-left: 30px;
+  background-image: url("https://www.incimages.com/uploaded_files/image/1920x1080/getty_548298907_9706479704500126_78156.jpg");
+  /* background-position: top; */
+  background-repeat: no-repeat;
+  /* zabezpiecza przed duplikacją fotki */
+  background-size: cover;
+  height: 170px;
+}
+h1 {
+  color: darksalmon;
+}
+
+.lekcja4 {
+  /* border: 2px solid black; */
+  text-align: center;
+  margin-top: 1.5%;
+  margin-bottom: -1.5%;
+}
+.lekcja4 h5 {
+  text-decoration: none;
+  /* nie działa chyba */
+  color: gray;
+}
+.lekcja4 p {
+  font-size: 10px;
+}
+
+/*  */
+.artykuły {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.artykuły div {
+  display: inline-block;
+  max-width: 25%;
+  background-color: linen;
+  text-align: center;
+  margin: 2% 3%;
+  font-size: 8px;
+  transition: 1s;
+}
+.artykuły div:hover {
+  transform: scale(1.1);
+  outline-color: lightslategray;
+}
+
+.artykuły h6 {
+  font-size: 12px;
+}
+
+.stopka div {
+  display: inline-block;
+  /* border: 2px solid red; */
+}
+.stopka {
+  background-color: darksalmon;
+  margin-bottom: 0%;
+  height: 35vh;
+}
+.onas {
+  margin: 1.5% 18% 7% 1%;
+  width: 25vw;
+  float: left;
+}
+.onas p {
+  font-size: 9px;
+}
+.img {
+  /* margin: 10vh 10vw 2vh 12vw; */
+  width: 150px;
+  margin-top: 6%;
+  margin-bottom: 1%;
+  height: 22vh;
+}
+.img img {
+  width: 80%;
+}
+.form {
+  width: 170px;
+  height: 22vh;
+  font-size: 10px;
+  float: right;
+  margin: 2% 13% 0 0;
+}
+.form p {
+  margin-bottom: 3%;
+}
+.form input {
+  margin-bottom: 3%;
+}
+.stopka button {
+  background-color: black;
+  margin-top: 2%;
+  padding: 1vh 3vw;
+  color: white;
+  font-size: 8px;
+  border: none;
+}
+.stopka button:hover {
+  opacity: 0.5;
+}
+.stopka label {
+  margin-left: 3%;
+}
+
+/* vw,vh tylko do body i większych elementów
+najlepiej % (odwołują siędo rodzica))lub px */
